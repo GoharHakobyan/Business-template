@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Find A Job</title>
+	<link rel="icon" type="image/ico" href="../images/partner1.png" />
+	<link href="../owlCrousel/owl.carousel.css" rel="stylesheet" type="text/css">
+	<link href="../owlCrousel/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/findAjob.css">
+</head>
+
+<body>
+	<div class="container-fluid marginGreen noPadding ">
+		<div class="greymainBar imageBusiness ">
+			<div class="myBody">
+				<div class="container-fluid marginGreen noMarginGreen">
+					<div class="greymainBar imageBusiness ">
+						<div class="myBody">
+							<nav class="navbar navbar-expand-lg navbar-dark  sidebarNavigation myheader" data-sidebarClass="navbar-dark ">
+								<div class="container-fluid">
+									<div class="myGreenlogo">
+										<a href="#">
+											<img src="../images/logo.png" class="navbar-brand  img-fluid" alt="">
+										</a>
+									</div>
+									<div>
+									</div>
+									<div class="toggle navbar-toggler leftNavbarToggler" data-toggle="collapse" data-target="#navbarsExampleDefault"
+									 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" onclick="navigationAnimate(this)">
+										<!-- <span class="navbar-toggler-icon"></span> -->
+										<div class="bar1"></div>
+										<div class="bar2"></div>
+										<div class="bar3"></div>
+									</div>
+									<div class="collapse navbar-collapse greyNavitaion" id="navbarsExampleDefault">
+										<ul class="nav navbar-nav nav-flex-icons ml-auto">
+											<li class="nav-item active">
+												<a class="nav-link" href="../html/index.html">Home
+													<span class="sr-only">(current)</span>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="../html/findAjob.html">Find a Job</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="../html/postAJob.html">Post a Job</a>
+											</li>
+											<div class=" nav-item btn-group show-on-hover shows d-none d-lg-block">
+												<button type="button dropButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+													Pages <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu mt-1 staticgreenDrop" role="menu">
+													<li><a href="#">Action</a></li>
+													<li><a href="#">Another action</a></li>
+													<li><a href="#">Something else here</a></li>
+													<li class="divider"></li>
+													<li><a href="#">Separated link</a></li>
+												</ul>
+											</div>
+											<li class="nav-item dropdown d-block d-lg-none">
+												<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+												 aria-haspopup="true" aria-expanded="false">
+													Pages
+												</a>
+												<div class="dropdown-menu navdropsecondary" aria-labelledby="navbarDropdownMenuLink">
+													<a class="dropdown-item" href="#">Action</a>
+													<a class="dropdown-item" href="#">Another action</a>
+													<a class="dropdown-item" href="#">Something else here</a>
+												</div>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="../html/blog.html">Blog</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="../html/login.html">Login</a>
+											</li>
+											<li>
+												<p class="">or</p>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="../html/register.html">Register</a>
+											</li>
+										</ul>
+									</div>
+									<div class="btn-group">
+										<button type="button" class="btn  trColor" data-toggle="dropdown">
+											<i class="fas fa-ellipsis-v"></i>
+										</button>
+										<div class="dropdown-menu dropdown-menu-right  firstgreenDrop">
+											<button class="dropdown-item" type="button">login</button>
+											<p class="dropdown-item" class="text-muted">or</p>
+											<button class="dropdown-item" type="button">Register</button>
+										</div>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<div class="row mt-5 no-gutters ">
+							<div class="flex-column d-block mx-auto">
+								<div class="greyText">
+									<p>Find A Job</p>
+									<p class="h6 text-center">Home / Find A Job
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+						<div class="container-fluid formBottom">
+			<div class="row no-gutters">
+					<form class=" d-block mx-auto mb-3" >
+					<div class="form-row mt-5">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 findJob-item mb-2 ">
+							<div class="user-input-wrp">
+								<input type="text" class="inputText form-control form-control-lg FormOtmnaControl" required />
+								<span class="floating-label">Your email address</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 findJob-item mb-2 ">
+							<div class="user-input-wrp">
+								<input type="text" class="inputText form-control form-control-lg FormOtmnaControl" required />
+								<span class="floating-label">Your email address</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  findJob-item2">
+							<div class="dropdown text-center mb-2">
+								<button class="btn  btn-light dropdown-toggle FormOtmnaControl btn-lg" type="button" id="dropdownMenu2"
+								 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									City or State
+								</button>
+								<div class="dropdown-menu myDropGreen text-left" aria-labelledby="dropdownMenu2">
+									<button class="dropdown-item" type="button">Action</button>
+									<button class="dropdown-item" type="button">Another action</button>
+									<button class="dropdown-item" type="button">Something else here</button>
+								</div>
+							</div>
+						</div>
+						<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 form-group findJob-item3 mygreenGorm3 FormOtmnaControl text-right">
+							<button class=" btn form-control form-control-lg d-block mx-auto " type="button">Find Job</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="lastJob">
+			<h1 class="text-center mb-2 mt-5">
+				Latest Jobs
+			</h1>
+			<hr>
+		</div>
+		<div class="table-responsive dreenTable m-auto">
+			<table class="table text-center greenTable">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Date</th>
+						<th>Company</th>
+						<th>Job Vacancy </th>
+						<th>City</th>
+						<th>Salary</th>
+						<th>Employment</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><i class="fas fa-fire greenFire"></i></td>
+						<td>11.05.2018, 4:16pm</td>
+						<td><img src="../images/partner1.png" alt=""></td>
+						<td><a href="#" class="greenCity">Developer</a></td>
+						<td>New York</td>
+						<td>$6000</td>
+						<td>Full time</td>
+					</tr>
+					<tr>
+						<td><i class="fas fa-fire greenFire"></i></td>
+						<td>06.02.2018, 2:54pm</td>
+						<td><img src="../images/partner-02-50x40.png" alt=""></td>
+						<td><a href="#" class="greenCity">Project Manager</a></td>
+						<td>San Diego</td>
+						<td>$4000</td>
+						<td>Full time</td>
+					</tr>
+					<tr>
+						<td><i class="fas fa-fire greenFire"></i></td>
+						<td>18.01.2018, 2:42pm</td>
+						<td><img src="../images/partner-03-40x40.png" alt=""></td>
+						<td><a href="#" class="greenCity">Truck Driver</a></td>
+						<td>Dallas</td>
+						<td>$2000</td>
+						<td>Part time</td>
+					</tr>
+					<tr>
+						<td><i class="fas fa-plane greenPlane"></i></td>
+						<td>13.04.2018, 2:54pm</td>
+						<td><img src="../images/partner-04-76x40.png" alt=""></td>
+						<td><a href="#" class="greenCity">JS Programmer</a></td>
+						<td>Seattle</td>
+						<td>$7000</td>
+						<td>Full time</td>
+					</tr>
+					<tr>
+						<td><i class="fas fa-plane greenPlane"></i></td>
+						<td>18.05.2018, 4:32pm</td>
+						<td><img src="../images/partner1.png" alt=""></td>
+						<td><a href="#" class="greenCity">Developer</a></td>
+						<td>San Francisco</td>
+						<td>$5000</td>
+						<td>Part time</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="findJob-item3 text-center my-5">
+			<button class=" btn" type="button">View more</button>
+		</div>
+		<!-- footer -->
+		<div class="container-fluid bg-dark">
+			<div class="row justify-content-md-center ">
+				<div class="col-md-8 col-lg-12 my-5">
+					<div class="row justify-content-sm-center">
+						<div class="col-sm-10 col-lg-5 order-lg-2">
+							<h6 class="text-white text-sm-center text-lg-left">Newsletter</h6>
+							<div class="">
+								<p class="text-muted text-center">Keep up with our always upcoming news and updates. Enter your e-mail and
+									subscribe to our
+									newsletter.</p>
+							</div>
+							<div>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<div class="input-group-text">@</div>
+									</div>
+									<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+									<span class="input-group-append">
+										<button class="btn btn-sm " type="submit">Subscribe</button></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-lg-2 order-lg-3 text-sm-left">
+							<h6 class="text-white text-sm-center text-lg-left">Cities</h6>
+							<div class="d-block">
+								<div class="d-inline-block">
+									<ul class="list list-unstyled text-sm-center text-lg-left listGreenColor">
+										<li class="list-inline-item"><a href="#">New York</a></li>
+										<li class="list-inline-item"><a href="#">Los Angeles</a></li>
+										<li class="list-inline-item"><a href="#">San Diego</a></li>
+										<li class="list-inline-item"><a href="#">Boston</a></li>
+										<li class="list-inline-item"><a href="#">Washington</a></li>
+										<li class="list-inline-item"><a href="#">Chicago</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 col-lg-2  order-lg-3 text-sm-left">
+							<h6 class="text-white text-sm-center text-lg-left">Categories</h6>
+							<div class="d-block">
+								<div class="d-inline-block">
+									<ul class="list list-unstyled text-sm-center text-lg-left listGreenColor">
+										<li class="list-inline-item"><a href="#">Healthcare</a></li>
+										<li class="list-inline-item"><a href="#">Automobile Jobs</a></li>
+										<li class="list-inline-item"><a href="#">Food Services</a></li>
+										<li class="list-inline-item"><a href="#">Construction</a></li>
+										<li class="list-inline-item"><a href="#">Logistics</a></li>
+										<li class="list-inline-item"><a href="#">Finance</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 order-lg-1">
+							<!-- Footer brand-->
+							<div class="footer-brandImg mt-5 mb-4">
+								<a href="index.html"><img class=" img-fluid mx-auto d-block" src="../images/logo.png" alt=""></a>
+							</div>
+							<ul class="list-inline-sm  text-sm-center text-lg-left">
+								<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f iGreenColor"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fab fa-twitter iGreenColor"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fab fa-glide-g iGreenColor"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fab fa-youtube iGreenColor"></i></a></li>
+								<li class="list-inline-item"><a href="#"><i class="fab fa-instagram iGreenColor"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div style="position:relative">
+						<a href="#"><button id="back-to-top" class="btn  back-to-top greenposit mb-3"><i class="fas fa-arrow-up greenposit2"></i></button></a>
+					</div>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script>
+
+			$(document).ready(function () {
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > 50) {
+						$('#back-to-top').fadeIn();
+					} else {
+						$('#back-to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#back-to-top').click(function () {
+					$('#back-to-top').tooltip('hide');
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+
+				$('#back-to-top').tooltip('show');
+
+			});
+
+			// sidebar icon transform
+			function navigationAnimate(x) {
+				x.classList.toggle("change");
+			}
+			$(document).ready(function () {
+				$('.toggle').click(function () {
+					$('.toggle').toggleClass('active');
+					$('body').toggleClass('active');
+				});
+			});
+			//animated navbar
+			$(function () {
+				console.log($(".myGreenlogo").width())
+				$(".navbar-brand").css({ "width": "184", "position": "initial", "margin-top": "0px" });
+				$(".greyNavitaion").css({ "position": "initial", "right": "0px" });
+				$(".trColor").css({ "posiyion": "initial", "right": "0px" });
+				$(".nav-link").css("font-size", "16px");
+				$("button.btn.btn-default.dropdown-toggle").css("top", "-2px")
+				var shrinkHeader = 100;
+				$(window).scroll(function () {
+					var scroll = getCurrentScroll();
+					if (scroll >= shrinkHeader) {
+						$('.myheader').addClass('shrink');
+						$(".navbar-brand").css({ "width": "185", "position": "relative", "margin-top": "2px" });
+						$(".greyNavitaion").css({ "position": "relative", "right": "2%" });
+						$(".trColor").css({ "posiyion": "relative", "right": "5%" });
+						$(".nav-link").css("font-size", "17px");
+						$("button.btn.btn-default.dropdown-toggle").css("top", "0px")
+
+					}
+					else {
+						$('.myheader').removeClass('shrink');
+						$(".navbar-brand").css({ "width": "184", "position": "initial", "margin-top": "0px" });
+						$(".greyNavitaion").css({ "position": "initial", "right": "0px" });
+						$(".trColor").css({ "posiyion": "initial", "right": "0px" });
+						$(".nav-link").css("font-size", "16px");
+						$("button.btn.btn-default.dropdown-toggle").css("top", "-2px")
+
+					}
+				});
+				function getCurrentScroll() {
+					return window.pageYOffset;
+				}
+			});
+			// sidenavigation
+			xxx();
+
+			function xxx() {
+				if (window.jQuery) {
+					$(document).ready(
+						function () {
+							$(".sidebarNavigation .navbar-collapse").hide().clone().appendTo("body").removeAttr("class").addClass("sideMenu").show(); $("body").append("<div class='overlay'></div>");
+							$(".navbar-toggle, .navbar-toggler").on("click", function () {
+								$(".sideMenu").addClass($(".sidebarNavigation").attr("data-sidebarClass"));
+								$(".sideMenu, .overlay").toggleClass("open");
+								$(".overlay").on("click", function () {
+									$(this).removeClass("open");
+									$(".sideMenu").removeClass("open")
+								})
+							}); $("body").on("click", ".sideMenu.open .nav-item", function () { if (!$(this).hasClass("dropdown")) { $(".sideMenu, .overlay").toggleClass("open") } }); $(window).resize(function () { if ($(".navbar-toggler").is(":hidden")) { $(".sideMenu, .overlay").hide() } else { $(".sideMenu, .overlay").show() } })
+						})
+				} else {
+					console.log("sidebarNavigation Requires jQuery")
+				}
+			}
+
+		</script>
+</body>
+
+</html>
